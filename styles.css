@@ -1,0 +1,167 @@
+:root {
+    --color-darkblue: #233249;
+    --color-red: #EA5048;
+    --color-white: #FFFFFF;
+    --color-lightgrey: #EDEDED;
+    --color-darkgrey: #E0E0E0;
+
+    --color-blue: #26C1DF;
+    --color-turkis: #6DCEAE;
+    --color-orange: #FF9810;
+    --color-yellow: #F7C647;
+    --color-pink: #E04A76;
+}
+
+
+body {
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    visibility: visible;
+}
+
+
+
+.box1 {
+    border: 3vw solid var(--color-lightgrey);
+    margin: 0;
+    padding: 1em;
+    height: 3em;
+    width: 90%;
+}
+
+.box2 {
+    border: 0vw var(--color-lightgrey);
+    padding: 1vw 0vw 0vw 0vw;
+    margin: 0vw 0vw 0vw;
+    height: 20vw;
+    width: 100%;
+}
+
+
+/************** 1. semester *********/
+
+#firstsemester {
+    background-color: var(--color-lightgrey);
+    display: grid;
+}
+
+#semesteroverskrift {
+    background-color: var(--color-darkgrey);
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+#semesteroverskrift h1 {
+    position: absolute;
+    left: 20vw;
+}
+
+#semesteroverskrift img {
+    position: absolute;
+    top: 10vw;
+    left: 7vw;
+}
+
+#skema1 {
+    background-color: var(--color-blue);
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+
+
+#lektier1 {
+    background-color: var(--color-turkis);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+#materialer1 {
+    background-color: var(--color-orange);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+
+
+#opgavebeskrivelser1 {
+    background-color: var(--color-yellow);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+
+
+#afleveringer1 {
+    background-color: var(--color-pink);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+
+
+#litteraturliste1 {
+    background-color: var(--color-red);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+/********** AFLEVERINGER ***********/
+#overskrift {
+    background-color: var(--color-darkgrey);
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+th {
+    background-color: var(--color-pink);
+    color: var(--color-darkblue);
+    font-family: Helvetica Neue;
+    border: 4vw;
+    padding: 6vw;
+    text-align: left;
+}
+
+td {
+    background-color: var(--color-white);
+    color: var(--color-darkblue);
+    font-family: Helvetica Neue;
+    border: 2vw;
+    padding: 4vw;
+    border-style: solid;
+    border-width: 0.2vw;
+
+}
+
+/********** TEST GRID ************/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--color-lightgrey);
+}
+
+.grid-item {
+    border: 3vw 0vw solid white;
+    padding: 5vw;
+    font-size: 7vw;
+    ;
+    text-align: center;
+}
