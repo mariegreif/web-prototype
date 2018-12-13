@@ -269,7 +269,7 @@ td {
 /********** AFLEVERINGER 3 **************/
 
 #overskrift h1 {
-    font-size: 6vw;
+    font-size: 5vw;
     padding: 2vw;
 }
 
@@ -352,4 +352,21 @@ td {
     position: relative;
     left: 56vw;
     bottom: 9vw;
+}
+
+/********* AFLEVERINGER 5 ************/
+
+#design-sprint5 .box3 {
+    position: relative;
+    left: 55vw;
+    bottom: 4vw;
+    font-size: 2.8vw;
+
+}
+
+#design-sprint5 .box4 {
+    position: relative;
+    left: 77vw;
+    bottom: 9vw;
+    font-size: 2.8vw;
 }
